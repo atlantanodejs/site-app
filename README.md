@@ -28,5 +28,5 @@ Quality code and process, nodejs best practices
 
 Please post issues for feature ideas
 
-Also, please use issues for admin tasks
-For example, post on the issue to get membership to the Github org
+Also, please use issues for admin tasks.  
+For example, post on the issue to get membership to the Github org.
