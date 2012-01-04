@@ -23,6 +23,8 @@ Workflow applications
 
 Quality code and process, nodejs best practices
 
+General goal: to be able to automate processes that are first done manually.
+
 
 ## Use Github
 
