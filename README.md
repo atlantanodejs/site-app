@@ -32,3 +32,12 @@ Please post issues for feature ideas
 
 Also, please use issues for admin tasks.  
 For example, post on the issue to get membership to the Github org.
+
+
+## Our sponsors
+ 
+###Sevaa Group, Inc.
+Hosting for our Node.js projects
+
+###Think Interactive
+Office space for our meetings
