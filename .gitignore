@@ -1,0 +1,13 @@
+*.pid
+*.gz
+*.log
+*~
+tmp/*
+.DS_Store
+.vim*
+
+node_modules/
+
+_work*/
+creds.js
+
