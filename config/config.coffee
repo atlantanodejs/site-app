@@ -15,7 +15,7 @@ config_dev =
 config_live =
     PORT: 80
     HOST: "sevaa.atlantanodejs.org"
-    STATICDIR: "./public"
+    STATICDIR: "/home/irickt/live/sevaa.atlantanodjs.org/public"
 
 # use ENV
 _.extend config, config_live # config_dev # 
