@@ -130,8 +130,8 @@ app.use connect.session secret: "opensecret" #creds.SESSION_SECRET
 app.use quip()
 app.use dispatch routes
 
-app.use connect.favicon config.STATICDIR + '/favicon.ico' # in config
 app.use connect.static config.STATICDIR
+app.use connect.favicon config.STATICDIR + '/favicon.ico' # in config
 
 app.listen config.PORT
 
