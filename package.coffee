@@ -12,6 +12,7 @@ module.exports =
     dependencies:
         underscore: "~1.2.3"
         connect: "1.8.x"
+        dispatch: "*"
         quip: "*"
         shred: "*"
         glob: "*"
