@@ -1,6 +1,6 @@
 #!/usr/bin/env coffee
 
-config = require "./config/config.coffee"
+config = require "../config/config.coffee"
 
 _ = require 'underscore'
 
