@@ -124,8 +124,8 @@ app.use connect.bodyParser()
 app.use connect.query()
 app.use connect.methodOverride()
 app.use connect.session secret: "opensecret" #creds.SESSION_SECRET
-#app.use passport.initialize()
-#app.use passport.session()
+##app.use passport.initialize()
+##app.use passport.session()
 
 app.use quip()
 app.use dispatch routes
