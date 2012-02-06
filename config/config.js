@@ -19,11 +19,11 @@
 
   config_live = {
     PORT: 80,
-    HOST: "atlantahodejs.org",
+    HOST: "sevaa.atlantanodejs.org",
     STATICDIR: "./public"
   };
 
-  _.extend(config, config_dev);
+  _.extend(config, config_live);
 
   str = "http://<%=HOST%>:<%=PORT%>/";
 

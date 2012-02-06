@@ -2,7 +2,6 @@ _ = require 'underscore'
 require 'icing'
 path = require 'path'
 fs   = require 'fs'
-path   = require 'path'
 {exec} = require 'child_process'
 
 

@@ -21,6 +21,11 @@
         "passport-github": ">= 0.0.0",
         "passport-meetup": ">= 0.0.0"
     },
+    "devDependencies": {
+        "buster": "*",
+        "icing": "*",
+        "coffee-script": "*"
+    },
     "engines": {
         "node": "0.6.x"
     },
