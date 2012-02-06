@@ -4,41 +4,30 @@
     "version": "0.0.1",
     "author": "Rick Thomas",
     "main": "./lib/server.js",
-    "licenses": [{ 
-        "type": "MIT",
-        "url": "https://github.com/atlantanodejs/site_app/raw/master/LICENSE"
-    }],
-    
-    "repository": { 
+    "repository": {
         "type": "git",
         "url": "https://github.com/atlantanodejs/site_app.git"
     },
-    
     "directories": {
         "lib": "lib"
     },
-    
     "dependencies": {
         "underscore": "~1.2.3",
-        "connect": "1.x.x",
-        "dispatch": "*",
+        "connect": "1.8.x",
         "quip": "*",
-        "request": "~2.2.9",
-        "passport": ">= 0.0.0",
-        "passport-github": ">= 0.0.0"
+        "shred": "*",
+        "glob": "*",
+        "passport": ">= 0.0.6",
+        "passport-github": ">= 0.0.0",
+        "passport-meetup": ">= 0.0.0"
     },
-
-    "devDependencies": {
-        "tap": "*",
-        "tapr" : "*",
-        "sinon": "*",
-        "icing": "*",
-        "coffee-script": "*"
-    },
-    
     "engines": {
-        "node": "~0.4.11"
-    }
+        "node": "0.6.x"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/atlantanodejs/site_app/raw/master/LICENSE"
+        }
+    ]
 }
-
-

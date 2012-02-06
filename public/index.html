@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auth UI</title>
+    <link rel="stylesheet" href="./css/style.css" /> 
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Auth UI</h1>
+            <p>UI for multiple service authentication. Version  <span id="app-version"></span> </p>
+
+            <div class="menubar right">
+                <a href="/refresh" class="btn refresh">Verify/refresh</a>
+            </div>
+            <div id="service-count">   
+            </div>
+        </header>
+    
+        <div id="service-list">   
+        </div>
+
+    </div> 
+
+    <script id="service-tmpl" type="text/html">
+        <div class="left">
+            <h2> <%= label %> </h2>
+        </div>
+        <div class="right">
+            <a class="btn primary auth" href="/auth/<%= name %>">Auth</a>
+            <a class="btn caution unauth" href="/unauth/<%= name %>">Unauth</a>
+        </div>
+    </script>
+
+    <script src="/js/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/underscore-1.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/underscore.string.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/backbone-0.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+    
+    <script src="/lib/client_authUI.js" type="text/javascript" charset="utf-8"></script>
+    
+</body>
+</html>
