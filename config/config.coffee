@@ -14,10 +14,11 @@ config_dev =
 
 config_live =
     PORT: 80
-    HOST: "atlantahodejs.org"
+    HOST: "sevaa.atlantanodejs.org"
     STATICDIR: "./public"
 
-_.extend config, config_dev # config_live # 
+# use ENV
+_.extend config, config_live # config_dev # 
 
 str = "http://<%=HOST%>:<%=PORT%>/"
 _.extend config, {BASEURL: _.template str, config }
