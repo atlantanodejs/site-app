@@ -1,0 +1,44 @@
+{
+    "name": "atlantanodejs-site",
+    "description": "Admin features and demos for the Atlanta Nodejs group",
+    "version": "0.0.1",
+    "author": "Rick Thomas",
+    "main": "./lib/server.js",
+    "licenses": [{ 
+        "type": "MIT",
+        "url": "https://github.com/atlantanodejs/site_app/raw/master/LICENSE"
+    }],
+    
+    "repository": { 
+        "type": "git",
+        "url": "https://github.com/atlantanodejs/site_app.git"
+    },
+    
+    "directories": {
+        "lib": "lib"
+    },
+    
+    "dependencies": {
+        "underscore": "~1.2.3",
+        "connect": "1.x.x",
+        "dispatch": "*",
+        "quip": "*",
+        "request": "~2.2.9",
+        "passport": ">= 0.0.0",
+        "passport-github": ">= 0.0.0"
+    },
+
+    "devDependencies": {
+        "tap": "*",
+        "tapr" : "*",
+        "sinon": "*",
+        "icing": "*",
+        "coffee-script": "*"
+    },
+    
+    "engines": {
+        "node": "~0.4.11"
+    }
+}
+
+
