@@ -10,5 +10,5 @@ node_modules/
 
 _work*/
 
-**/creds.js
+config/creds.js
 
