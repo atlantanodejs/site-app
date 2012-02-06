@@ -9,5 +9,6 @@ tmp/*
 node_modules/
 
 _work*/
-creds.js
+
+**/creds.js
 
